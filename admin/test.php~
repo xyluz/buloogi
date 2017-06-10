@@ -1,0 +1,103 @@
+<?php session_start();
+
+require_once('_autoload.php');
+require_once '../lib/function.php';
+
+
+echo "i am here";
+//if($_SESSION[locked]){
+//echo 'set' . $_SESSION[locked];
+//
+//}else{
+//    echo 'not'. $_SESSION[locked];
+//}
+//exit();
+//instantiate instances
+//$session = new Session();
+
+// $customer = new customer();
+// echo "<pre>";
+// print_r($customer->check_registeration('411402088'));
+
+//$user = new User();
+//echo "<pre>";
+//foreach($user->search_admin(6) as $a){
+//    echo $a[fullName];
+//}
+//foreach($customer->get_customer_code_details(11) as $client){
+//
+//                               print_r($customer->get_vehincle($client[id]));
+//                            }
+
+//$setting = new global_settings();
+
+
+//echo count($setting->get_all_trackers());
+
+
+//$account = new accounts();
+
+//{x: '2015 Q1', y: 3000, z: 3000},
+//{x: '2015 Q2', y: 2000, z: 1000},
+//{x: '2015 Q3', y: 2000, z: 4000},
+//{x: '2015 Q4', y: 3000, z: 3000},
+//{x: '2015 Q5', y: 3000, z: 10000}
+//echo '<pre>';
+//print_r($account->difference());
+//$counter=1;
+// foreach($account->get_all_month() as $date){
+////     $year = date('Y',time());
+//
+//     foreach($account->sales_for_month($date[0]) as $a){
+//         foreach($account->expected_for_month($date[0]) as $b){
+//
+//         echo "{x:'" .$year . " Q".$counter ."', y: " .$a[0] .', z: ' .$b[0] .'},<br>' ;
+////         echo $a[0];
+//         }
+//     }
+//
+//    }
+
+//print_r($customer->count_new_customers());
+//print_r($customer->update_customer_nok('968056083', 'firsnamt', 'sur', '$relationship', 'p1', 'p2', 'add'));
+//$customer->vehincle_details('77793307a', 'make', 'bmy', 'color', 'plate');
+//$customer->customer_progress('920157191');
+//echo $customer->customer_progress('77793307a');
+//$customer->subscription_details_status('99652008e');
+//$customer->payment_details_status('96566307f');
+//$customer->nok_details_status('330836079');
+//$customer->delete_customer('77793307a');
+//echo $customer->customer_progress('99652008e');
+//$customer->check_registeration('96566307f');
+//$backup = new backup();
+//
+//$customer->advance_search_nok('968056083');
+//$backup->run_backup();
+//$filename = 'db-backup-1433082733-641da16394460d22eca2bcd3bb10b6bb.sql';
+//$file_size = filesize('backup/'.$filename);
+//echo $file_size;
+
+//$b = new breadcrumb();
+//
+//print_r($b->breadcrumbs(">","Home"));
+//<p>breadcrumbs()</p>
+//<p>breadcrumbs(' > ')</p>
+//<p>breadcrumbs(' ^^ ', 'Index')</p>
+
+//select *
+//from table
+//where date >= [start date] and date <= [end date]
+
+//DATABASE RESTORE
+//
+//ini_set('memory_limit','128M'); // set memory limit here
+//$db = mysql_connect ( 'Your Host', 'Your Username', 'Your password' ) or die('not connected');
+//mysql_select_db( 'Your database', $db) or die('Not found');
+//$fp = fopen ( 'sql_dump.sql', 'r' );
+//$fetchData = fread ( $FP, filesize ( 'sql_dump.sql') );
+//$sqlInfo = explode ( ";\n", $fetchData); // explode dump sql as a array data
+//
+//foreach ($sqlInfo AS $sqlData )
+//{
+//mysql_query ( $sqlData ) or die('Query not executed');
+//}
